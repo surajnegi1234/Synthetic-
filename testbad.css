@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: rgb(252, 249, 249);
+}
+header{
+    
+}
+#header-container{
+    margin: 2px ;
+    display: flex;
+    align-items: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-weight: 300;
+}
+#header-container>span{
+    margin-bottom: 4px;
+}
+.image-con{
+    
+    width: 1.2rem;
+    margin-right: 4px;
+}
+.image-con>img{
+    width: 100%;
+}
+#image-container{
+    border: 1px solid black;
+    background-color: navy;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+}
+#image-container>img{
+    height: 80%;
+}
+#configuration{
+    background-color: rgba(241, 239, 239, 0.726);
+    padding:0 10px 10px 10px;
+    cursor: pointer;
+}
+
+#configuration-two{
+    cursor: pointer;
+}
+#configuration>fieldset{
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    color: rgb(49, 47, 47);
+    margin-bottom: 4rem;
+    
+}
+
+#configuration>span{
+    font-size: 1.2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:500;
+    color: rgb(71, 69, 69);
+}
+button{
+    margin-left:5px ;
+}
+.select{
+    margin: 20px;
+}
+.textarea{
+    width: 100%;
+    min-height: 60vh;
+    border:2px solid  lightgray;
+    background-color: #fff;
+    outline: none;
+}
+#horizontal{
+    border: 0.5px solid rgb(104, 101, 101);
+    margin-top: 5px;
+    margin-bottom: 5PX;
+}
+#outer{
+    background-color: rgb(252, 249, 249);
+    display: flex;
+}
+.left{
+
+    height: 70vh;
+    width: 20%;
+    background-color: rgb(116, 113, 113);
+}
+.right{
+   /* display: none; */
+    width:80%
+}
+.home{
+    display: flex;
+    gap: 10px;
+}
+.home>img{
+    width: 2rem;
+  
+}
+.button-section{
+ margin-left: 14px;
+}
+.button-section>button{
+    width: 8rem;
+    height: 5rem;
+    background-color: lightblue;
+    border: none;
+    color:rgb(105, 100, 100);
+    margin:6px;
+    
+    border-radius: 5px;
+}
+.button-section>button:hover{
+    background-color: rgb(181, 181, 199);
+}
+.textarea1{
+    width: 97%;
+    min-height: 55vh;
+    border:2px solid  lightgray;
+    background-color: #fff;
+    outline: none;
+    margin-left: 20px;
+    border-radius: 8px;
+}
+hr {
+ margin: 5px;
+ color: grey;
+}
+.right-one{
+    margin: 20px 0 0 40px;
+}
+#configuration-two{
+    margin-left: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.ip-address-config{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+     
+}
+.ip-address-config>div{
+    margin:10px 0 3px 0;
+}
+.ip-address-config input[type="submit"] {
+    width: 7rem;
+    height: 2.4rem;
+    margin-top: 20px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 3px;
+    color: rgb(83, 78, 78);
+}
+.ip-address-config input[type="submit"]:hover{
+    background-color: rgb(55, 55, 121);
+}
+#ip-adress{
+    width: 10rem;
+    height: 1.4rem;
+    outline: none;
+}
+#port{
+    width: 4rem;
+    margin-left: 2.2rem;
+}
+
+.right-one>h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:1.5rem
+}
+fieldset {
+    border: 1px solid lightgray; /* Set border color */
+    border-radius: 5px; /* Optional: Add border radius for rounded corners */
+    padding: 10px; /* Optional: Add padding inside the fieldset */
+}

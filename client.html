@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="testbad.css">
+    <style>
+        .home {
+            margin-left: 20px;
+            font-size: 1.4rem;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="header-container">
+            <div class="image-con">
+                <img src="./assets/drdo_logo.png" alt="" srcset="">
+            </div>
+            <span>PRTSA - Client Server</span>
+        </div>
+
+
+        <div id="image-container">
+            <img src="./assets/drdo_logo_full.png" alt="" srcset="">
+        </div>
+    </header>
+    <hr>
+    <div id="outer">
+        <div class="left">
+            <div class="home">
+
+
+                <div>Home</div>
+            </div>
+            <div id="configuration-two">
+                <select name="Configuration" id="configuration-select">
+                    <option value="configuration">Configuration</option>
+                    <option value="network" selected>Network configuration</option>
+                </select>
+            </div>
+             
+        </div>
+        <div class="right-one" >
+              <h2>Network Configuration</h2>
+              <div class="ip-address-config">
+               <div>
+                IP Adress:  <input type="text" name="" id="ip-adress" placeholder="Enter the IP Adress">
+               </div>
+               <div> Port:   <input type="text" name="" id="port"  placeholder="   PORT"></div>
+                <input type="submit" value="Save">
+              </div>
+        </div>
+        <div class="right" >
+            <div class="button-section">
+                <button>Start Transmission</button>
+                <button>Stop Transmission</button>
+            </div>
+            <textarea class="textarea1">
+            </textarea>
+        </div>
+    </div>
+    
+</body>
+<script src="client.js"></script>
+</html>
